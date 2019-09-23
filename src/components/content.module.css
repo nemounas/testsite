@@ -1,0 +1,11 @@
+.content {
+    grid-area: c;
+    background: yellow;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .img_content{
+    max-width: 100%;
+    height: auto;
+  }
+  

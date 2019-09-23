@@ -1,0 +1,21 @@
+.nav{
+    grid-area: n;
+    background: rgb(157, 219, 185);
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .item a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .item .active a {
+      color: gold;
+  }
+
+  .item a:hover {
+    color: gold;
+}
