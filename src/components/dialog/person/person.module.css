@@ -1,0 +1,19 @@
+.dialog {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 10px;
+}
+.dialog_person{
+   
+   font-size: 20px;
+}
+.person{
+   color: black;
+   font-weight: 400;
+}
+.dialog_text{
+   background: rgb(206, 198, 155);
+}
+.text{
+  border: 1px solid grey;
+}

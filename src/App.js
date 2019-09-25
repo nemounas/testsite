@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Content from './components/content/content.jsx';
+import Profile from './components/profile/profile.jsx';
 import Header from './components/header/header.jsx';
 import Nav from './components/nav/nav.jsx';
 import Dialog from './components/dialog/dialog';
@@ -17,7 +17,7 @@ const App = () => {
       <Nav />
      
      <div className="App-wraper-content">
-       <Route path="/Profile" component={Content}/>
+       <Route path="/Profile" component={Profile}/>
        <Route path="/dialog" component={Dialog}/>
        <Route path="/music" component={Music}/>
        <Route path="/news" component={News}/>
