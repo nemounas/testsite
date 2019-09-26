@@ -8,15 +8,21 @@
 .App-wraper {
   background-color: white;
   width: 100%;
-  margin: o auto;
+  margin: 0 auto;
   display: grid;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 60px 4fr 8fr;
   grid-template-columns: 2fr 10fr;
+  align-self: stretch;
   grid-template-areas: 
   "h h"
   "n c"
+  "f c"
 
 }
+
+/* a {
+  text-decoration: none;
+} */
 
 .App-link {
   color: #09d3ac;
@@ -24,7 +30,7 @@
 .App-wraper-content {
   grid-area: c;
   background: yellow;
-  margin: 5px 5px 5px 5px;
+  
 }
 
 

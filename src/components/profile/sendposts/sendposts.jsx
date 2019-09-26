@@ -3,9 +3,9 @@ import React from 'react';
 const SendPost = (props) => {
     return (
         <div>
-            <textarea />
+             <textarea /> 
             <div>
-            <button>Послать</button><button>Удалить</button>
+             <button>Послать</button> 
             </div>
         </div>
     )

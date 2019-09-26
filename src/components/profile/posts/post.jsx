@@ -2,7 +2,7 @@ import React from 'react';
 import p from './post.module.css'
 
 const Post = (props) => {
-    console.log(props.message);
+    
     return (
 
         <div className={p.post}>

@@ -1,9 +1,10 @@
 .nav{
     grid-area: n;
     background: rgb(157, 219, 185);
-    margin-right: 5px;
-    margin-top: 5px;
     text-align: center;
+    margin: 0px;
+    height: 200px;
+    padding-top: 20px;
   }
 
   .item a {
